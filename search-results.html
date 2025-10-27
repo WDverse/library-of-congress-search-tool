@@ -21,12 +21,12 @@
         <form>
           <h1>Library of Congress Search Engine</h1>
 
-          <div class = "form-input">
+          <div class = "form-input p-2"">
             <input class="form-control" type="text" placeholder="Enter any subject..." aria-label="default input">
           </div>
 
 
-          <div>
+          <div class="p-2"">
               <select class="form-select" aria-label="Default select">
                 <option selected>Select a format</option>
                 <option value="1">Maps</option>
@@ -40,9 +40,21 @@
             </select>
           </div>
 
-          <div class="d-grid gap-2">
+          <div class="d-grid gap-2 p-2">
              <button class="btn btn-primary" type="submit">Search</button>
           </div>
+          <div class="d-grid gap-2 p-2">
+             <a class="btn btn-primary" href="./index.html">&larr; Go Back</a>
+          </div>
+
+          <aside>
+            <div>
+              <h2 class="results-header">Showing results for </h2>
+            </div>
+            <div id="results">
+
+            </div>
+          </aside>
 
 
         </form>
