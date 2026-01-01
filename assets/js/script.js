@@ -1,12 +1,11 @@
 const formEl = document.querySelector('.form');
-const selection = document.querySelector('.form-select')
-const endpoint = selection.value;
-console.log (endpoint)
-const url = `https://www.loc.gov/${endpoint}/?fo=json.`
+
 
 const handleFormSubmit = (event)=> {
     event.preventDefault();
-
+    
+    const formatInputVal = document.querySelector('#format-input').value;
+    const searchInputVal = document.querySelector('#search-input').value;
 
     
 }
