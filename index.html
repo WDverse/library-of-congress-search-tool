@@ -18,16 +18,16 @@
 
     <main>
       <div>
-        <form>
+        <form class="form">
           <h1>Library of Congress Search Engine</h1>
 
           <div class = "form-input p-2">
-            <input class="form-control" type="text" placeholder="Enter any subject..." aria-label="default input">
+            <input id="search-input"class="form-control" type="text" placeholder="Enter any subject..." aria-label="default input">
           </div>
 
 
           <div class="p-2">
-              <select class="form-select" aria-label="Default select">
+              <select id ="format-input" class="form-select" aria-label="Default select">
                 <option selected>Select a format</option>
                 <option value="1">Maps</option>
                 <option value="2">Audio</option>
@@ -41,12 +41,13 @@
           </div>
 
           <div class="d-grid gap-2 p-2">
-             <a class="btn btn-primary"  href="./search-results.html" type="submit">Search</a>
+             <button class="btn btn-primary" >Search</button>
           </div>
 
 
         </form>
       </div>
     </main>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
